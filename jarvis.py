@@ -168,12 +168,7 @@ if __name__ == '__main__':
             print(jok)
             speak(jok)
 
-        elif 'quit' in query:
-            print("Sure Sir, Thanks for letting me help you. Have a good day.")
-            speak("sure sir, thanks for letting me help you. Have a good day.")
-            exit()
-
-        elif 'exit' in query:
+        elif 'quit' in query or 'exit' in query:
             print("Sure Sir, Thanks for letting me help you. Have a good day.")
             speak("sure sir, thanks for letting me help you. Have a good day.")
             exit()
